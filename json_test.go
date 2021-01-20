@@ -20,7 +20,7 @@ func TestJSON(t *testing.T) {
 		fmt.Printf("  %s\n", t.Name())
 		v, err := GetJSONRaw("TEST_JSON_RAW")
 		if err != nil {
-			t.Errorf("Expected to recieve json.RawMessage, received error: %v\n", err)
+			t.Errorf("Expected to receive json.RawMessage, received error: %v\n", err)
 		}
 		if len(v) == 0 {
 			t.Error("Expected to receive slice of values, received nothing")
