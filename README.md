@@ -2,7 +2,7 @@
 [![GoDoc](https://godoc.org/github.com/jfarleyx/go-env-vars?status.svg)](http://godoc.org/github.com/jfarleyx/go-env-vars)
 [![Go Report](https://goreportcard.com/badge/github.com/jfarleyx/go-env-vars)](https://goreportcard.com/report/github.com/jfarleyx/go-env-vars)
 
-Go module to fetch environment variables by desired Go data type. The module can return env vars as the following data types:
+go-env-vars is a Go module that returns environment variables as native Go data types. The following data types are supported:
 
 - string
 - bool
